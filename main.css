@@ -1,0 +1,147 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+canvas {
+    display: block;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-black{
+    color: black;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.absolute-text-center{
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%
+
+}
+
+.score-position{
+    top: 80%;
+    transform: translate(-50%, -50%);
+    left: 50%
+}
+
+.button-position{
+    top: 73%;
+    transform: translate(-50%, -50%);
+    left: 50%
+}
+
+.button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5%;
+    background-color:whitesmoke
+}
+
+.score-font{
+    font-family:'Segoe UI', sans-serif;
+    font-size: 50px;
+}
+
+.gameover-font{
+    font-family:'Segoe UI', sans-serif;
+    font-size: 100px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.secret-continue{
+    top: 90%;
+    transform: translate(-50%, -50%);
+    left: 90%;
+    font-family:'Segoe UI', sans-serif;
+    font-size: 20px;
+}
+
+.tryhard{
+    top: 86%;
+    transform: translate(-50%, -50%);
+    left: 89%;
+    font-family:'Segoe UI', sans-serif;
+    font-size: 20px;
+}
+
+.pause{
+    top: 10%;
+    transform: translate(-50%, -50%);
+    left: 90%;
+    font-family:'Segoe UI', sans-serif;
+    font-size: 20px;
+}
+
+.pause-text{
+    top: 40%;
+    transform: translate(-50%, -50%);
+    left: 50%
+}
+
+.smiley{
+    top: 14%;
+    transform: translate(-50%, -50%);
+    left: 90%;
+    font-family:'Segoe UI', sans-serif;
+    font-size: 25px;
+}
+
+@media (max-width: 1200px) {
+	.gameover-font {
+		font-size: 60px;
+    }
+    .absolute-text-center{
+        top: 40%;
+        transform: translate(-50%, -50%);
+        left: 50%    
+    }
+    .score-position{
+        top: 85%;
+        transform: translate(-50%, -50%);
+        left: 50%
+    }
+    .tryhard{
+        top: 80%;
+    }
+    .secret-continue{
+        top: 90%;
+        left: 85%;
+    }
+    .pause{
+        left: 85%;
+    }
+}
+
+@media (max-height: 700px) {
+	.gameover-font {
+		font-size: 60px;
+    }
+    .absolute-text-center{
+        top: 40%;
+        transform: translate(-50%, -50%);
+        left: 50%    
+    }
+    .score-position{
+        top: 85%;
+        transform: translate(-50%, -50%);
+        left: 50%
+    }
+    
+}
