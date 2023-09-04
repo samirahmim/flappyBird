@@ -1,4 +1,5 @@
 # flappyBird
+4.2 CG project:3
 In this side-scrolling endless runner game, the player
 controls a bird that must fly between sets of pipes. Any other
 movement causes the bird to flap its wings; the player may only
